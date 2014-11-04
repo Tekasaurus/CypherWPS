@@ -12,13 +12,16 @@ def pri(lists):
 pri(words)
 pri(clues)
 
-def separator():
-    newlist = {}
-    for word in words:
-        for letter in word:
-            if letter not in newlist:
-                print (str(letter))
-                option = input("what would you like to asign to this symbol?")
-                newlist[letter] = option
-                print (newlist)
-separator()
+newlist = {}
+for word in words:
+    for letter in word:
+        if letter not in newlist:
+            print (str(letter))
+            option = input("what would you like to asign to this symbol?")
+            newlist[letter] = option
+            print (newlist)
+for word in words:
+    for letter in word:
+        for key in newlist:
+        print(words)
+
