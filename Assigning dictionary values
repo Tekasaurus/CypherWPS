@@ -25,7 +25,7 @@ for word in words:
     for letter in word:
         for key in newlist:
             if letter == key:
-                print (newlist[key])
+print (newlist[key])
     
 
 
